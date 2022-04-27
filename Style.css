@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+.name {
+    font-family: "Lobster";
+    font-size: 5em;
+    padding-bottom: 20px;
+      }
+
+body{
+    text-align: center;
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+}
+
+.case{
+    border: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+.range {
+    margin: 0 auto;
+    font-size: 1.5em;
+  }
+  
+  .you-score {
+    text-align: right;
+  }
+  
+  .cpu-score {
+    text-align: left;
+  }
+  
+  .player-turn {
+    padding: 10px;
+    border-bottom: 4px solid #4286f4;
+  }
+  
+  .cpu-turn {
+    padding: 5px;
+  }
